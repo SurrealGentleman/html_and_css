@@ -1,0 +1,45 @@
+body{
+	font-size: 0px;
+	font-family: Arial;
+}
+
+div.level1{
+	width: 323px;
+	margin: auto;
+	text-align: right;
+}
+div.level2{
+	width: 400px;
+	margin: auto;
+}
+div.level3{
+	width: 500px;
+	margin: auto;
+	padding-left: 25px;
+
+}
+div.level45{
+	width: 400px;
+	padding-left: 1px;
+	margin: auto;
+}
+div.level6{
+	width: 450px;
+	padding-right: 25px;
+	margin: auto;
+}
+p{
+	font-size: 14px;
+	text-align: center;
+}
+.greytext{
+	color: #7f8787;
+}
+
+a:link{
+	color: #af2d3c;
+}
+
+a:visited{
+	color: #816a63;
+}
