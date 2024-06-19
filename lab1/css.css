@@ -1,0 +1,25 @@
+body{
+	background-image: url(fon_03.gif);
+	margin-left: 30px;
+	margin-right: 30px;
+
+}
+
+h1{
+	font-size: 40px;
+	text-align: left;
+	color:  Navy;
+}
+
+.foto{
+	float: left;
+	width: 380px;
+	margin: 5px;
+
+}
+
+p{
+	font-size: 18px;
+	font-family: Times;
+	text-align: left;
+}
