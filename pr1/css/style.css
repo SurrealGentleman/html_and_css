@@ -1,0 +1,88 @@
+body {
+  background: aqua;
+  margin: 0% 15%
+}
+
+h1.zak {
+  text-align: center;
+  color: #800080;
+  font-weight: bold;
+  font-family: Times;
+}
+
+p.paragraph1{
+  font-size: 12pt;
+  color: navy;
+  font-style: italic;
+  text-align: right;
+  font-family: Times;
+}
+
+.paragraph1_extra{
+  font-size: 12pt;
+  text-decoration: underline;
+  font-style: normal;
+  text-align: right;
+  font-family: Times;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+p.left{
+  text-align: left;
+  font-family: Arial;
+  font-size: 11pt;
+}
+
+p.right{
+  text-align: right;
+  font-family: Arial;
+  font-size: 11pt;
+}
+
+h2.zak2{
+  font-family: Times;
+  color: #800080;
+  text-align: left;
+  font-weight: bold;
+}
+
+p.warp{
+  font-size: 12pt;
+  font-family: Times;
+  color: navy;
+  text-align: justify;
+}
+
+p.text{
+  font-size: 12pt;
+  font-family: Times;
+  color: navy;
+  text-align: justify;
+  margin: 0% 20%
+}
+
+p.res{
+  font-size: 12pt;
+  font-family: Times;
+  text-align: right;
+  color: navy;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
