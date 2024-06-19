@@ -1,0 +1,53 @@
+body{
+	background: #66cdaa;
+}
+
+h1{
+	text-align: center;
+}
+
+div.vse{
+	width: 600px;
+	margin: 0 auto;
+}
+
+.slab{
+	width: 100px;
+	height: 50px;
+	vertical-align: top;
+	display: inline-block;
+}
+
+.lab{
+	width: 30px;
+	height: 50px;
+	margin-left: 50px;
+	display: inline-block;
+}
+
+.s4{
+	margin-left: 50px;
+	display: inline-block;
+}
+
+label{
+	vertical-align: top;
+}
+
+.text{
+	width: 150px;
+	margin-right: 20px;	
+}
+
+textarea{
+	width: 375px;
+	height: 50px;
+	resize: none;
+	margin-left: 20px;
+}
+
+input.button{
+	margin: 20px 0px 20px 135px;
+	width: 100px;
+	height: 30px;
+}

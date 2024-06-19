@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="../css/style.css">
+	<title>pr4 JS</title>
+</head>
+<body>
+	<script src="../js/script.js"></script>
+	<h1>Валютный калькулятор</h1>
+	<div class="vse">
+		<form id="form">
+			<div class="lab"><label for="iz">Из</label></div>
+			<select id="iz" class="text" size="1">
+				<option selected value="1">Рубли</option>
+				<option value="65.74">Евро</option>
+				<option value="61.23">Доллар</option>
+				<option value="77.23">Фунт стерлингов</option>
+				<option value="0.48">Японская иена</option>
+				<option value="9.18">Китайский юань</option>
+				<option value="2.07">Украинская гривна</option>
+			</select>
+			<div class="slab"><label for="kurs">Курс</label></div><input id="kurs" class="text" type="text" disabled>
+			<br>
+			<br>
+			<br>
+			<br>
+			<div class="lab"><label for="v">В</label></div>
+			<select id="v" class="text" size="1">
+				<option value="1">Рубли</option>
+				<option selected value="65.74">Евро</option>
+				<option value="61.23">Доллар</option>
+				<option value="77.23">Фунт стерлингов</option>
+				<option value="0.48">Японская иена</option>
+				<option value="9.18">Китайский юань</option>
+				<option value="2.07">Украинская гривна</option>
+			</select>
+			<div class="slab"><label for="per_sum">Переводимая сумма</label></div><input oninput="start()" id="per_sum" class="text" type="Number" min="0">
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<div class="s4"><label>Результат</label><textarea id="textar" disabled></textarea></div><br>
+			<div class="but"><input onclick="schet()" id="button_schet" disabled class="button" type="button" value="Посчитать"><input onclick="rest()" type="button" class="button" value="Очистить">
+			</div>
+		</form>
+	</div>
+</body>
+</html>
