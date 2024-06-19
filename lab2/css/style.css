@@ -1,0 +1,73 @@
+body{
+	margin-right: 20px;
+	margin-left: 20px;
+	font-family: Times;
+}
+body.home{
+	background-color: PaleTurquoise;
+}
+body.text{
+	background-color: Khaki;
+}
+body.grafika{
+	background-color: MediumSpringGreen;
+}
+h1.green3{
+	color: DarkGreen;
+	text-align: center;
+}
+h2.red{
+	color: FireBrick;
+	text-align: center;
+}
+h2.green1{
+	color: green;
+	text-align: left;
+}
+h2.blue{
+	color: blue;
+	text-align: left;
+}
+h2.green3{
+	color: LimeGreen;
+	text-align: left;
+}
+h2.purple{
+	color: Purple;
+	text-align: left;
+}
+h2.brown{
+	color: Sienna;
+	text-align: left;
+}
+.bold{
+	font-weight: bold;
+}
+.italic{
+	font-style: italic;
+}
+.listhome{
+	text-align: center;
+}
+.li_color{
+	background-color: #FFFF00;
+}
+.u{
+	text-decoration: underline;
+}
+a:link{
+	color: #808080;
+}
+a:visited {
+	color: #800000;
+}
+img.text{
+	width: 500px;
+	vertical-align: top;
+	margin-left: 5px;
+}
+img.graf{
+	float: right;
+	width: 200px;
+	vertical-align: top;
+}
