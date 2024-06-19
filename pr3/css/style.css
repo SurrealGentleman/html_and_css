@@ -1,0 +1,29 @@
+body{
+	background-image: url(../images/fon.jpg);
+	font-size: 0;
+}
+
+div{
+	width: 507px;
+	height: 120px;
+	margin: 0 auto;
+}
+div.sizetop{
+	height: 96px;
+}
+div.sizebottom{
+	padding-top: 262px;
+}
+
+div.r1{
+	width: 124px;
+	float: left;
+}
+
+div.r2{
+	width: 125px;
+	float: right;
+}
+div.r3{
+	text-align: center;
+}
