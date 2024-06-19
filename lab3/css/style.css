@@ -1,0 +1,53 @@
+table.one {
+  border-collapse: collapse;
+  font-family: Arial;
+  margin: 0 auto;
+}
+td.one {
+  border: 1px solid #a5e1ca;
+  background-color: #e2effa;
+  font-size: 15px;
+  padding: 10px;
+  height: 20px;
+  width: 100px;
+}
+caption{
+	background: #f4f1f8;
+	font-family: Comic Sans ms;
+	color: #f3cd26;
+  font-size: 30px;
+}
+
+.bold{
+	font-weight: bold;
+}
+
+.center{
+	text-align: center;
+}
+
+table.two{
+	border-collapse: collapse;
+  font-family: Arial;
+ 	margin: 0 auto;
+}
+
+td.two {
+  border: 2px solid #ff9b04;
+  padding: 10px;
+  background-color: #dedfde;
+  vertical-align: top;
+}
+
+.head{
+	border: 2px solid #ff9b04;
+	padding: 5px;
+  width: 15px;
+  height: 10px;
+	background-color: #efefef;
+	vertical-align: top;
+}
+
+.headbold{
+	font-weight: bold;
+}
