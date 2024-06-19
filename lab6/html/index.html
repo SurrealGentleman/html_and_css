@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Форма</title>
+	<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+	<div class="logo"></div>
+	<h1>Zoo Keeper Application</h1>
+	<br>
+	<form class="form">
+		<label class="label_header">Please complete the form.</label>
+		<fieldset class="fieldset_border">
+  			<legend class="legeng_header">Contact Details</legend>
+  			<p>
+  				<label class="labels_inContact" for="name">Name</label>
+				<label class="labels_inContact" for="telephone">Telephone</label>
+				<br>
+				<input class="inputs_inContact" type="text" name="name" id="name" placeholder="Иван Торопышкин" required pattern="^[А-Яа-яЁё\s]+$">
+				<input class="inputs_inContact" type="text" name="telephone" id="telephone" placeholder="89955566893" required pattern="[0-9]{11}">
+			</p>
+			<p>
+				<label class="labels_inContact" for="email">Email</label>
+				<label class="labels_inContact" for="web_site">Web site</label>
+				<br>
+				<input class="inputs_inContact" type="text" name="email" id="email" placeholder="smbody@mail.ru" required pattern="^[a-zA-z0-9]+@[a-zA-z0-9]+\.[a-zA-z0-9]+$">
+				<input class="inputs_inContact" type="text" name="web_site" id="web_site" placeholder="www.site.ru" required pattern="^[a-zA-z0-9]+\.[a-zA-z0-9]+\.[a-zA-z0-9]+$">
+  			</p>
+		</fieldset>
+		<fieldset class="fieldset_border">
+			<legend class="legeng_header">Person Details</legend>
+			<p>
+				<label class="labels_inPersonDet" for="birthday">Birthday</label>
+				<label class="labels_inPersonDet" for="gender">Gender</label>
+				<label class="labels_inPersonDet" for="registration_date">Registration date</label><br>
+				<input class="inputs_inPersonDetDate" type="date" name="birthday" id="birthday" required>
+				<select class="inputs_inPersonDetSelect" name="gender" id="gender" required>
+					<option>Male</option>
+					<option>Female</option>
+				</select>
+				<input class="inputs_inPersonDetDate" type="date" name="registration_date" id="registration_date" required>
+			</p>
+			<p>
+				<label class="labels_inPersonDet" for="textarea">When did you first know you wanted to be a zoo-keeper?</label>
+				<textarea class="textarea" id="textarea" required></textarea>
+			</p>
+			<p>
+				<label class="labels_inPersonDet_bottom">Pick Your Favorite Animals</label>
+				<label for="coloranimal">Color of Pet</label>
+
+				<input class="inputs_inPersonDetCheckbox" type="checkbox" name="animals1" >Dog
+				<input class="inputs_inPersonDetCheckbox" type="checkbox" name="animals2">Cat
+				<input class="inputs_inPersonDetCheckbox" type="checkbox" name="animals3">Turtle
+				<input class="inputs_inPersonDetCheckbox" type="checkbox" name="animals4">Fish
+				<input class="inputs_inPersonDetCheckbox" type="checkbox" name="animals5">Parrot
+				<input class="inputs_inPersonDetCheckbox" type="checkbox" name="animals6">Canary
+				<input class="input_inPersonDetColor" type="Color"  name="coloranimal" id="coloranimal" required>
+			</p>	
+		</fieldset>
+		<input class="button" type="Submit" value="Submit">
+		<input class="button" type="Reset" name="reset" value="Reset">
+	</form>
+	<ul>		
+		<div class="menu_header">Products</div>
+		<div class="menu_a_block">
+			<div class="menu_a"><li><a href="">Products</a></li></div>
+			<div class="menu_a"><li><a href="">Services</a></li></div>
+			<div class="menu_a"><li><a href="">Feedback</a></li></div>
+		</div>
+		<div class="menu_header">Reports</div>
+		<div class="menu_a_block">
+			<div class="menu_a"><li><a href="">Assigned Issues</a></li></div>
+			<div class="menu_a"><li><a href="">Summary View</a></li></div>
+		</div>
+		<div class="menu_header">Info</div>
+		<div class="menu_a_block">
+			<div class="menu_a"><li><a href="">Home</a></li></div>
+			<div class="menu_a"><li><a href="">Articles</a></li></div>
+			<div class="menu_a"><li><a href="">About Us</a></li></div>
+		</div>
+	</ul>
+</body>
+</html>
