@@ -1,0 +1,50 @@
+form{
+    font-family: Arial;
+    width: 700px;
+    background-color: #f0f0f0;
+    margin: auto;
+    padding: 20px;
+}
+
+h2{
+    font-family: 'Times New Roman';
+    text-align: center;
+}
+
+.left{
+    width: 45%;
+}
+
+fieldset input{
+    margin: 10px;
+    margin-right: 0;
+}
+
+#result{
+    width: 75px;
+    margin: 30px;
+}
+
+.left>label{
+    margin-left: 30px;
+}
+
+#calc{
+    width: 100px;
+    height: 30px;
+    margin-left: 75px;
+}
+
+.right{
+    float: right;
+    width: 45%;
+}
+
+.right input{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+#date1{
+    width: 75%;
+}

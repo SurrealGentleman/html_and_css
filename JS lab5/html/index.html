@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>lab 5</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <form name="dates">
+        <h2>Работа с датами</h2>
+        <div class="right">
+            <label for="date1">Начало периода</label><br>
+            <input type="text" name="start" id="date1"><br>
+            <label for="date2">Конец периода</label><br>
+            <input type="date" name="end" id="date2">
+        </div>
+        <div class="left">
+            <fieldset>
+                <legend>Определить</legend>
+                <input type="radio" name="select" id="days">
+                <label for="days">Количество дней</label><br>
+                <input type="radio" name="select" id="weekends">
+                <label for="weekends">Количество выходных</label><br>
+                <input type="radio" name="select" id="workdays">
+                <label for="workdays">Количество рабочих дней</label><br>
+                <input type="radio" name="select" id="weeks">
+                <label for="weeks">Количество полных недель</label><br>
+                <input type="radio" name="select" id="months">
+                <label for="months">Количество полных месяцев</label>
+            </fieldset>
+            <label for="result">Результат</label>
+            <input type="text" id="result" readonly><br>
+            <input type="button" value="Вычислить" id="calc">
+        </div>
+    </form>
+    <script src="../js/script.js"></script>
+</body>
+</html>
