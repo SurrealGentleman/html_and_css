@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>pr5 JS</title>
+	<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+	<script src="../js/script.js"></script>
+	<div>
+		<form>
+			<label for="fam">Фамилия</label><input onchange="butCheck()" type="text" id="fam" >
+			<br>
+			<br>
+			<label for="log">Логин</label><input onchange="butCheck()" type="text" id="log">
+			<br>
+			<br>
+			<label for="pass">Пароль</label><input onchange="butCheck()" type="password" id="pass">
+			<br>
+			<br>
+			<label for="check_pass">Подтвердите пароль</label><input onchange="butCheck()" type="password" id="check_pass">
+			<br>
+			<br>
+			<label for="brday">Дата рождения</label><input onchange="butCheck()" type="text" id="brday">
+			<br>
+			<br>
+			<label for="number">Телефон</label><input onchange="butCheck()" type="text" id="number">
+			<br>
+			<br>
+			<label for="inn">ИНН</label><input onchange="butCheck()" type="text" id="inn">
+			<br>
+			<input type="radio" id="m" name="pol" checked><label for="m">М</label>
+			<input type="radio" id="g" name="pol"><label for="g">Ж</label>
+			<br>
+			<input type="submit" id="sub" disabled onclick="innbutton()">
+			<input type="reset">
+		</form>
+	</div>
+	
+
+</body>
+</html>
