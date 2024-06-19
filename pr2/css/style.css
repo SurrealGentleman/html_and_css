@@ -1,0 +1,112 @@
+div.viz1{
+	border: 1px solid black;
+	width: 800px;
+	margin: 20px;
+	background: #ffff99;
+	overflow: hidden;
+	line-height: 1.5;
+}
+div.viz2{
+	border: 1px solid black;
+	width: 800px;
+	margin: 20px;
+	background: #cdf4ff;
+	overflow: hidden;
+}
+div.viz3{
+	border: 1px solid red;
+	width: 800px;
+	margin: 20px;
+	background: #dfecda;
+	overflow: hidden;
+}
+div.viz4{
+	border: 3px solid #008080;
+	width: 800px;
+	margin: 20px;
+	background: #ffcff1;
+	overflow: hidden;
+}
+
+.d0{
+	margin: 0 0 0 5px;
+}
+.d1{
+	margin: 0 20px 0 20px;
+}
+.d1-1{
+	display: inline-block;
+	margin: 0 0 0 5px;
+}
+.d1-2{
+	width: 45%;
+	float: right;
+	margin: 0 0 0 5px;
+}
+.d1-3{
+	display: inline-block;
+	margin: 0 0 0 5px;
+}
+.d1-4{
+	width: 45%;
+	float: right;
+	margin: 25px 0 0 5px;
+}
+
+
+.boldT{
+	font-family: Times;
+	font-size: 18px;
+	font-weight: bold;
+}
+.boldredT{
+	font-family: Times;
+	font-size: 18px;
+	font-weight: bold;
+	color: #990000;
+}
+.textAsmall{
+	font-family: Arial;
+	font-size: 16px;
+}
+.textredA{
+	font-family: Arial;
+	font-size: 16px;
+	color: #990000;
+}	
+.boldA{
+	font-family: Arial;
+	font-size: 18px;
+	font-weight: bold;
+}
+.textAbig{
+	font-family: Arial;
+	font-size: 18px;
+}
+.textT{
+	font-family: Times;
+	font-size: 18px;
+}	
+.boldredA{
+	font-family: Arial;
+	font-size: 18px;
+	font-weight: bold;
+	color: #ff2400;
+}
+.italic{
+	font-style: italic;
+}
+.textBLUE{
+	color: Navy;
+}
+.underline{
+	text-decoration: underline;
+}
+
+
+img {
+	float: right;
+	display: inline-block;
+	width: 180px;
+	margin: 5px;
+}
