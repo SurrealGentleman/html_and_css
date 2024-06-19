@@ -1,0 +1,39 @@
+form{
+	box-shadow: 0 0 0 2px grey, 0 0 0 4px lightblue;
+	width: 800px;
+	margin: auto;
+}
+
+.header{
+	text-align: center;
+}
+
+fieldset{
+	width: 250px;
+	display: inline;
+	vertical-align: top;
+	height: 200px;
+	margin: 0 0 0 70px;
+}
+
+.pay{
+	display: inline-block;
+	vertical-align: top;
+}
+
+.data{
+	margin: 5px 0;
+	display: block;
+}
+
+.button{
+	display: block;
+	margin: 10px 70px;
+}
+
+textarea{
+	margin: 5px 70px;
+	width: 250px;
+	height: 100px;
+	resize: none;
+}

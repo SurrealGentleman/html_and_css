@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>pr3 JS</title>
+	<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+	<script src="../js/script.js"></script>
+	<form name="forma">
+		<h3 class="header">Хозяйственный магазин</h3>
+		<fieldset>
+
+			<legend>Данные</legend>
+			<label for="name_tovar">Название товара</label>
+			<input class="data" type="text" id="name_tovar" name="name_tovar">
+			
+			<label for="price">Цена</label>
+			<input class="data" type="text" id="price" name="price" onkeypress="proverka()">
+			
+			<label for="amount">Количество</label>
+			<input class="data" type="Number" id="amount" min="0" name="amount">
+
+		</fieldset>
+
+		<fieldset>
+			<legend>Вид оплаты</legend>
+			<input type="radio" id="nal" name="payment"><label class="pay" for="nal" id="nalic">Наличные</label>
+			<br>
+			<input type="radio" id="visa" name="payment"><label class="pay" for="visa" id="visaC">Карта Visa</label>
+			<br>
+			<input type="radio" id="mastercard" name="payment"><label class="pay" for="mastercard" id="masC">Карта MasterCard </label>
+			<br>
+			<input type="radio" id="tinkoff" name="payment"><label class="pay" for="tinkoff" id="tinkC">Карта Тинькофф</label>
+		</fieldset>
+
+		<input class="button" type="button" id="calculate" value="Вычислить" onclick="start()">
+		<textarea id="textar" disabled></textarea>
+	</form>
+</body>
+</html>
