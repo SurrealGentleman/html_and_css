@@ -1,0 +1,94 @@
+body{
+	background: url(../images/bg-illu4.jpg);
+	font-family: Verdana;
+	color: white;
+}
+
+div.onebig{
+	width: 450px;
+	height: 450px;
+	margin: 0 auto;
+}
+
+div.part1{
+	width: 150px;
+	height: 140px;
+	float: left;
+	padding-top: 0;
+	display: inline-block;
+}
+
+div.color1{
+	background: #880088;
+}
+
+div.color2{
+	background: #000088;
+}
+
+div.color3{
+	background: #880000;
+}
+
+img.center{
+	display: block;
+    margin-top: 25%;
+    margin-left: 20%;
+    width: 100px;
+    padding-top: 0;
+}
+
+p.text{
+	text-align: center;
+	padding-top: 5%;
+	font-size: 18px;
+	color: #fefefe;
+}
+
+p.center{
+	text-align: center;
+	font-size: 10px;
+	color: #c4c4be;
+}
+
+div.color1:hover{
+	background: #884488;
+}
+
+div.color2:hover{
+	background: #444488;
+}
+
+div.color3:hover{
+	background: #884444;
+}
+
+@media (max-width: 600px){
+	body{
+		background: url(../images/bg-illu1.jpg);
+	}
+
+	p.center{
+		display: none;
+	}
+
+	p.text{
+		font-size: 14px;
+	}
+
+	div.part1{
+		display: block;
+		width: 400px;
+		height: 60px;
+		float: none;
+		margin: 0 auto;
+		margin-bottom: 5%;
+	}
+
+	img.center{
+	    width: 100px;
+	    margin-top: 0;
+    	margin-left: 0;
+    	margin: 0 auto;
+	}
+}
