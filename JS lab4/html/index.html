@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="../css/style.css">
+	<title>lab4 JS</title>
+</head>
+<body>
+	<script src="../js/script.js"></script>
+	<h1>Сделайте заказ</h1>
+	<div class="main">
+		<ul>
+			<li>
+				<label id="z1">
+					<input type="checkbox" class="box" name="bbox" value="box1" id="b1" onchange="start()">Фаршированная форель
+				</label>
+			</li>
+			<li>
+				<label id="z2">
+					<input type="checkbox" class="box" name="bbox" value="box2" id="b2" onchange="start()">Телятина под соусом
+				</label>
+			</li>
+			<li>
+				<label id="z3">
+					<input type="checkbox" class="box" name="bbox" value="box3" id="b3" onchange="start()">Крем-суп из шампиньонов
+				</label>
+			</li>
+			<li>
+				<label id="z4">
+					<input type="checkbox" class="box" name="bbox" value="box4" id="b4" onchange="start()">Рулет со шпинатом
+				</label>
+			</li>
+			<li>
+				<label id="z5">
+					<input type="checkbox" class="box" name="bbox" value="box5" id="b5" onchange="start()">Пицца Гавайская
+				</label>
+			</li>
+			<li>
+				<label id="z6">
+					<input type="checkbox" class="box" name="bbox" value="box6" id="b6" onchange="start()">Ванильный коктейль
+				</label>
+			</li>
+			<li>
+				<label id="z7">
+					<input type="checkbox" class="box" name="bbox" value="box7" id="b7" onchange="start()">Напиток Грейпфрут
+				</label>
+			</li>
+			<label for="TA" class="check">Счет</label><textarea id="TA" disabled placeholder="0"></textarea>
+		</ul>
+		<div class="image">
+			<img id="photo-img" src="">
+		</div>
+		
+	</div><input type="button" class="button" onclick="zakaz()" value="Заказать">
+</body>
+</html>
