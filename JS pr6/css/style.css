@@ -1,0 +1,63 @@
+body{
+	background-color:#BBFFFF;
+	font-size: 16px;
+}
+
+img{
+	height: 150px;
+	margin: 10px;
+	float: right;
+}
+
+.ppp p{text-align: justify; margin: 0;}
+
+.change{
+	border: 1px solid red;
+	border-radius: 7px;
+	display: inline-block;
+	width: 350px;
+	background: silver;
+}
+
+#pick img{
+	width: 60px;
+	height: 60px;
+	float: left;
+	margin: 5px;
+}
+
+.zag, .tex{float: right;}
+
+#x{float: right; margin: 0; padding-right: 5px; width: 25px;}
+
+div.tex{padding-right: 24px;}
+
+.bold{font-weight: bold; margin: 5px 0;}
+
+#change{float: left; display: inline-block;}
+
+.color{width: 300px;}
+
+.col{margin-bottom: 0;}
+
+#green{background-color: green; width: 60px; height: 20px; display: inline-block;}
+
+#blue{background-color: blue; width: 60px; height: 20px; display: inline-block;}
+
+#red{background-color: red; width: 60px; height: 20px; display: inline-block;}
+
+#hid{
+	display: none;
+	width: 300px;
+	position: absolute;
+	top: 250px;
+	left: 450px;
+	z-index: 3;
+	background: white;
+	border: 2px solid blue;
+	border-radius: 8px;
+	text-align: center;
+}
+#hid input{margin: 3px; width: 250px;}
+
+#y{display: none;}
